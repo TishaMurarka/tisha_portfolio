@@ -1,0 +1,15 @@
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+.cursor-blink::after {
+  content: '|';
+  animation: alternate-reverse 0.5s infinite;
+  margin-left: 2px;
+}
+
+.text-wrap-balance {
+  text-wrap: balance;
+  max-width: 600px;
+}
