@@ -1,73 +1,75 @@
-# Welcome to your Lovable project
+AI/ML Portfolio Project
+A modern, responsive portfolio website built with React, TypeScript, and Tailwind CSS, showcasing AI/ML expertise and projects.
 
-## Project info
+🚀 Features
+Responsive Design: Seamlessly adapts to all device sizes
+Modern UI/UX: Clean and professional design with creative elements
+Interactive Sections: Dynamic components with smooth animations
+Performance Optimized: Fast loading and efficient rendering
+TypeScript Support: Type-safe development experience
+🛠️ Technologies Used
+React.js
+TypeScript
+Tailwind CSS
+Framer Motion
+ESLint
+Prettier
 
-**URL**: https://lovable.dev/projects/80a9f506-3281-4796-8438-9316ce793d94
+📁 Project Structure
 
-## How can I edit this code?
+twin-portfolio-project/
+├── src/
+│   ├── components/
+│   │   ├── Header.tsx
+│   │   ├── HeroSection.tsx
+│   │   ├── ServicesSection.tsx
+│   │   ├── PortfolioSection.tsx
+│   │   └── Footer.tsx
+│   ├── styles/
+│   │   └── globals.css
+│   └── App.tsx
+├── public/
+└── package.json
 
-There are several ways of editing your application.
+🚀 Getting Started
 
-**Use Lovable**
+1. Clone the repository
+git clone https://github.com/yourusername/twin-portfolio-project.git
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/80a9f506-3281-4796-8438-9316ce793d94) and start prompting.
+2. Install dependencies
+cd twin-portfolio-project
+npm install
 
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+3. Install dependencies
 npm run dev
-```
 
-**Edit a file directly in GitHub**
+4. Build for production
+npm run build
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+💡 Key Components
+Hero Section: Professional introduction with animated elements
+Services Section: Showcases AI/ML expertise areas
+Portfolio Section: Display of projects and achievements
+Testimonials: Client feedback and success stories
+🎨 Customization
+The project uses Tailwind CSS for styling. Customize colors, fonts, and other design elements in:
 
-**Use GitHub Codespaces**
+tailwind.config.js
+globals.css
+📝 License
+MIT License - feel free to use this project for your portfolio!
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+👥 Contributing
+Fork the Project
+Create your Feature Branch (git checkout -b feature/AmazingFeature)
+Commit your Changes (git commit -m 'Add some AmazingFeature')
+Push to the Branch (git push origin feature/AmazingFeature)
+Open a Pull Request
+📧 Contact
+Your Name - @yourtwitter
 
-## What technologies are used for this project?
+Project Link: https://github.com/TishaMurarka/tisha_portfolio
 
-This project is built with:
+Made with ❤️ by [Tisha Murarka]
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/80a9f506-3281-4796-8438-9316ce793d94) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+Similar code found with 2 license types - View matches
